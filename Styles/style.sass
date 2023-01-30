@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap')
+* 
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+
+
+body
+    display: grid
+    min-height: 100vh
+    place-content: center
+    justify-items: center
+    font-family: "Outfit", sans-serif
+    text-align: center
+    background-color: hsl(220, 15%, 55%)
+
+
+.box
+    width: 50%
+    border-radius: 15px
+    padding: 15px 10px
+    background-color: hsl(0, 0%, 100%)
+
+
+.qr-code 
+    width: 100%
+    border-radius: 15px
+
+
+.main-text 
+    margin: 15px 0
+    color: hsl(218, 44%, 22%)
+    font-weight: 700
+
+
+.par 
+    margin: 15px 0
+    padding: 0 20px
+    font-size: 0.9375rem
+    font-weight: 400
+    color: hsl(220, 15%, 55%)
+
+
+@media screen and (max-width: 375px)
+    .box 
+        width: 85%
